@@ -1,0 +1,82 @@
+Dependencies for Project 'Blinky', Target 'STM32F103 Flash': (DO NOT MODIFY !)
+F (.\Blinky.c)(0x56037194)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I E:\Coding\CMSIS-RTOS-blinky\Boards\Keil\MCBSTM32E\Blinky\RTE-I E:\Coding\CMSIS-RTOS-blinky\Boards\Keil\MCBSTM32E\Blinky\RTE\Device\STM32F103ZE-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\RTE_Driver-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F10X_HD-o .\flash\blinky.o --omf_browse .\flash\blinky.crf --depend .\flash\blinky.d)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA0D60)
+I (E:\Coding\CMSIS-RTOS-blinky\Boards\Keil\MCBSTM32E\Blinky\RTE\RTE_Components.h)(0x56037194)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm3.h)(0x55093C04)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x55027F2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55AEF5F2)
+I (D:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board\Board_LED.h)(0x53BB2252)
+I (D:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board\Board_Buttons.h)(0x53BB2252)
+I (D:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board\Board_ADC.h)(0x53BB2252)
+F (.\Thread_ADC.c)(0x56037194)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I E:\Coding\CMSIS-RTOS-blinky\Boards\Keil\MCBSTM32E\Blinky\RTE-I E:\Coding\CMSIS-RTOS-blinky\Boards\Keil\MCBSTM32E\Blinky\RTE\Device\STM32F103ZE-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\RTE_Driver-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F10X_HD-o .\flash\thread_adc.o --omf_browse .\flash\thread_adc.crf --depend .\flash\thread_adc.d)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x55027F2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55AEF5F2)
+I (D:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board\Board_ADC.h)(0x53BB2252)
+F (.\Thread_LED.c)(0x56037194)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I E:\Coding\CMSIS-RTOS-blinky\Boards\Keil\MCBSTM32E\Blinky\RTE-I E:\Coding\CMSIS-RTOS-blinky\Boards\Keil\MCBSTM32E\Blinky\RTE\Device\STM32F103ZE-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\RTE_Driver-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F10X_HD-o .\flash\thread_led.o --omf_browse .\flash\thread_led.crf --depend .\flash\thread_led.d)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x55027F2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55AEF5F2)
+I (D:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board\Board_LED.h)(0x53BB2252)
+F (.\Abstract.txt)(0x56037194)()
+F (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Boards\Keil\MCBSTM32E\Common\ADC_MCBSTM32E.c)(0x56037194)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I E:\Coding\CMSIS-RTOS-blinky\Boards\Keil\MCBSTM32E\Blinky\RTE-I E:\Coding\CMSIS-RTOS-blinky\Boards\Keil\MCBSTM32E\Blinky\RTE\Device\STM32F103ZE-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\RTE_Driver-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F10X_HD-o .\flash\adc_mcbstm32e.o --omf_browse .\flash\adc_mcbstm32e.crf --depend .\flash\adc_mcbstm32e.d)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\STM32F10x.h)(0x53BA0D60)
+I (E:\Coding\CMSIS-RTOS-blinky\Boards\Keil\MCBSTM32E\Blinky\RTE\RTE_Components.h)(0x56037194)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm3.h)(0x55093C04)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (D:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board\Board_ADC.h)(0x53BB2252)
+F (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Boards\Keil\MCBSTM32E\Common\Buttons_MCBSTM32E.c)(0x55FB6010)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I E:\Coding\CMSIS-RTOS-blinky\Boards\Keil\MCBSTM32E\Blinky\RTE-I E:\Coding\CMSIS-RTOS-blinky\Boards\Keil\MCBSTM32E\Blinky\RTE\Device\STM32F103ZE-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\RTE_Driver-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F10X_HD-o .\flash\buttons_mcbstm32e.o --omf_browse .\flash\buttons_mcbstm32e.crf --depend .\flash\buttons_mcbstm32e.d)
+I (D:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board\Board_Buttons.h)(0x53BB2252)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\RTE_Driver\GPIO_STM32F10x.h)(0x5617291E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55AEF5F2)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA0D60)
+I (E:\Coding\CMSIS-RTOS-blinky\Boards\Keil\MCBSTM32E\Blinky\RTE\RTE_Components.h)(0x56037194)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm3.h)(0x55093C04)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+F (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Boards\Keil\MCBSTM32E\Common\LED_MCBSTM32E.c)(0x55FB6010)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I E:\Coding\CMSIS-RTOS-blinky\Boards\Keil\MCBSTM32E\Blinky\RTE-I E:\Coding\CMSIS-RTOS-blinky\Boards\Keil\MCBSTM32E\Blinky\RTE\Device\STM32F103ZE-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\RTE_Driver-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F10X_HD-o .\flash\led_mcbstm32e.o --omf_browse .\flash\led_mcbstm32e.crf --depend .\flash\led_mcbstm32e.d)
+I (D:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board\Board_LED.h)(0x53BB2252)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\RTE_Driver\GPIO_STM32F10x.h)(0x5617291E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55AEF5F2)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA0D60)
+I (E:\Coding\CMSIS-RTOS-blinky\Boards\Keil\MCBSTM32E\Blinky\RTE\RTE_Components.h)(0x56037194)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm3.h)(0x55093C04)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+F (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM3.lib)(0x550A7166)()
+F (RTE\CMSIS\RTX_Conf_CM.c)(0x56037194)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I E:\Coding\CMSIS-RTOS-blinky\Boards\Keil\MCBSTM32E\Blinky\RTE-I E:\Coding\CMSIS-RTOS-blinky\Boards\Keil\MCBSTM32E\Blinky\RTE\Device\STM32F103ZE-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\RTE_Driver-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F10X_HD-o .\flash\rtx_conf_cm.o --omf_browse .\flash\rtx_conf_cm.crf --depend .\flash\rtx_conf_cm.d)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x55027F2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55AEF5F2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC\RTX_CM_lib.h)(0x55027F2E)
+F (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\RTE_Driver\GPIO_STM32F10x.c)(0x5617291E)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I E:\Coding\CMSIS-RTOS-blinky\Boards\Keil\MCBSTM32E\Blinky\RTE-I E:\Coding\CMSIS-RTOS-blinky\Boards\Keil\MCBSTM32E\Blinky\RTE\Device\STM32F103ZE-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\RTE_Driver-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F10X_HD-o .\flash\gpio_stm32f10x.o --omf_browse .\flash\gpio_stm32f10x.crf --depend .\flash\gpio_stm32f10x.d)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\RTE_Driver\GPIO_STM32F10x.h)(0x5617291E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55AEF5F2)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA0D60)
+I (E:\Coding\CMSIS-RTOS-blinky\Boards\Keil\MCBSTM32E\Blinky\RTE\RTE_Components.h)(0x56037194)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm3.h)(0x55093C04)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+F (RTE\Device\STM32F103ZE\RTE_Device.h)(0x5615ADFE)()
+F (RTE\Device\STM32F103ZE\startup_stm32f10x_hd.s)(0x519DC060)(--cpu Cortex-M3 --pd "__RTX SETA 1" -g --apcs=interwork -I E:\Coding\CMSIS-RTOS-blinky\Boards\Keil\MCBSTM32E\Blinky\RTE-I E:\Coding\CMSIS-RTOS-blinky\Boards\Keil\MCBSTM32E\Blinky\RTE\Device\STM32F103ZE-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\RTE_Driver--pd "__UVISION_VERSION SETA 516" --pd "_RTE_ SETA 1" --pd "STM32F10X_HD SETA 1"--list .\flash\startup_stm32f10x_hd.lst --xref -o .\flash\startup_stm32f10x_hd.o --depend .\flash\startup_stm32f10x_hd.d)
+F (RTE\Device\STM32F103ZE\system_stm32f10x.c)(0x56037194)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I E:\Coding\CMSIS-RTOS-blinky\Boards\Keil\MCBSTM32E\Blinky\RTE-I E:\Coding\CMSIS-RTOS-blinky\Boards\Keil\MCBSTM32E\Blinky\RTE\Device\STM32F103ZE-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I D:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\RTE_Driver-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F10X_HD-o .\flash\system_stm32f10x.o --omf_browse .\flash\system_stm32f10x.crf --depend .\flash\system_stm32f10x.d)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA0D60)
+I (E:\Coding\CMSIS-RTOS-blinky\Boards\Keil\MCBSTM32E\Blinky\RTE\RTE_Components.h)(0x56037194)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm3.h)(0x55093C04)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)

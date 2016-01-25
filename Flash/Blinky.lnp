@@ -1,0 +1,16 @@
+--cpu Cortex-M3
+".\flash\blinky.o"
+".\flash\thread_adc.o"
+".\flash\thread_led.o"
+".\flash\adc_mcbstm32e.o"
+".\flash\buttons_mcbstm32e.o"
+".\flash\led_mcbstm32e.o"
+"D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM3.lib"
+".\flash\rtx_conf_cm.o"
+".\flash\gpio_stm32f10x.o"
+".\flash\startup_stm32f10x_hd.o"
+".\flash\system_stm32f10x.o"
+--strict --scatter ".\Flash\Blinky.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Flash\Blinky.map" -o .\Flash\Blinky.axf
